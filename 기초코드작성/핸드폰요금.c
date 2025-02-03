@@ -19,8 +19,5 @@ int main() {
 	}
 	printf("%d ", min);
 
-	printf("%d", Y_pay);
-	
-
 	return 0;
 }
