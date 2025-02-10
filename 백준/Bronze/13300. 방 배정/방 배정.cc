@@ -7,7 +7,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		scanf("%d %d", &s, &y);
 		arr[s][y-1]++;
-		if (arr[s][y-1] % 2) {
+		if (arr[s][y-1] % k == 1) {
 			count++;
 		}
 	}
