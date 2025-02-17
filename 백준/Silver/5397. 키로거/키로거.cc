@@ -105,7 +105,7 @@ int main() {
 		// 메모리 해제
 		while (head != NULL) {
 			Node* temp = head;
-			head = head->L;
+			head = head->R;
 			free(temp);
 		}
 	}
